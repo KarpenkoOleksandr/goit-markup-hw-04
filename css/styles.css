@@ -186,6 +186,8 @@ body {
 
 .header-menu {
   border-bottom: 1px solid #e7e9fc;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .header-container {
@@ -407,8 +409,8 @@ body {
 
 .customers-link:hover,
 .customers-link:focus {
-  color: var(--accent-color);
-  border-color: var(--accent-color);
+  color: var(--action-color);
+  border-color: var(--action-color);
 }
 
 /* ================/CUSTOMERS */
@@ -438,6 +440,7 @@ body {
 .footer-soc-description {
   font-weight: 500;
   margin-bottom: 16px;
+  color: var(--primary-white-color);
 }
 
 .footer-soc-media {
@@ -506,7 +509,7 @@ body {
 }
 
 .project-link {
-  display: inline-block;
+  display: block;
 }
 
 .project-link:hover,
