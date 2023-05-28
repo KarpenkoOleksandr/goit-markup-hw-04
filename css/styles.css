@@ -258,6 +258,7 @@ body {
 .hero {
   padding-top: 188px;
   padding-bottom: 188px;
+  margin: 0 auto;
 
   background-color: var(--secondary-dark-color);
   text-align: center;
